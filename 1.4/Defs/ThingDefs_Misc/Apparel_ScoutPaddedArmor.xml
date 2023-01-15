@@ -17,17 +17,17 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+		
+			<researchPrerequisites>
+				<li>DankPyon_AdornedArmor</li>
+				<li>DankPyon_ChainArmor</li>
+			</researchPrerequisites>
         </recipeMaker>
 		
         <thingCategories>
 			<li>Apparel</li>
             <li>ApparelArmor</li>
         </thingCategories>
-		
-		<researchPrerequisites>
-			<li>DankPyon_AdornedArmor</li>
-			<li>DankPyon_ChainArmor</li>
-		</researchPrerequisites>
 		
         <apparel>
             <bodyPartGroups>

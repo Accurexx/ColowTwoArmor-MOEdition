@@ -17,17 +17,17 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
+		
+			<researchPrerequisites>
+				<li>DankPyon_AdornedArmor</li>
+				<li>PlateArmor</li>
+			</researchPrerequisites>
         </recipeMaker>
 		
         <thingCategories>
 			<li>Apparel</li>
             <li>ApparelArmor</li>
         </thingCategories>
-		
-		<researchPrerequisites>
-			<li>DankPyon_AdornedArmor</li>
-			<li>PlateArmor</li>
-		</researchPrerequisites>
 		
         <apparel>
             <bodyPartGroups>

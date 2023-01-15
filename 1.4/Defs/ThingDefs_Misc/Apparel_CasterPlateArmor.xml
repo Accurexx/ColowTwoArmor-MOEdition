@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ScoutBase -->
+    <ThingDef ParentName="ArmorSmithableBase" Name="Ogam_CasterArmorBase" Abstract="True">
+		<graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+		
+        <recipeMaker>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+                <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+		
+        <thingCategories>
+			<li>Apparel</li>
+            <li>ApparelArmor</li>
+        </thingCategories>
+		
+		<researchPrerequisites>
+			<li>DankPyon_AdornedArmor</li>
+			<li>DankPyon_ChainArmor</li>
+		</researchPrerequisites>
+		
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Legs</li>
+            </bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>Ogam_LightScout</li>
+
+                <li>MedievalMilitaryAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>125</costStuffCount>
+		
+        <costList>
+            <DankPyon_Linen>15</DankPyon_Linen>
+        </costList>
+
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+            <MaxHitPoints>270</MaxHitPoints>
+            <Mass>12</Mass>
+            <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <EquipDelay>13</EquipDelay>
+        </statBases>
+		
+        <equippedStatOffsets>
+            <MoveSpeed>-0.55</MoveSpeed>
+        </equippedStatOffsets>
+		
+
+		<!--ColorTwo Stuff-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<colorGenerator IsNull="True"/>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Fabric</li>	
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Metallic</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+    </ThingDef>
+	
+	<!-- CasterArmor -->
+
+    <ThingDef ParentName="Ogam_CasterArmorBase">
+        <defName>Ogam_Caster_plate_armorA</defName>
+        <label>light caster plate armor</label>
+        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+		
+        <graphicData>
+			<texPath>Apparel/Caster_plate_armor/Caster_plate_armor</texPath>
+        </graphicData>
+		
+		<apparel>
+            <wornGraphicPath>Apparel/Caster_plate_armor/Caster_plate_armor</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="Ogam_CasterArmorBase">
+        <defName>Ogam_Caster_plate_armorB</defName>
+        <label>light caster plate armor</label>
+        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+		
+        <graphicData>
+			<texPath>Apparel/Caster_plate_armor2/Caster_plate_armor2</texPath>
+        </graphicData>
+		
+		<apparel>
+            <wornGraphicPath>Apparel/Caster_plate_armor2/Caster_plate_armor2</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+<!--
+    <ThingDef ParentName="Ogam_CasterArmorBase">
+        <defName>Ogam_Caster_plate_armorFull</defName>
+        <label>heavy caster plate armor</label>
+        <description>Set of scout`s equipment.</description>
+		
+        <graphicData>
+			<texPath>Apparel/Caster_plate_armor/Caster_plate_armorFull</texPath>
+        </graphicData>
+
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>90</costStuffCount>
+		
+        <costList>
+            <DankPyon_Linen>80</DankPyon_Linen>
+        </costList>
+
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <MaxHitPoints>310</MaxHitPoints>
+            <Mass>17</Mass>
+            <StuffEffectMultiplierArmor>0.95</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+            <Insulation_Cold>15</Insulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>20</EquipDelay>
+        </statBases>
+
+        <equippedStatOffsets>
+            <MoveSpeed>-1.2</MoveSpeed>
+        </equippedStatOffsets>
+		
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+		
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Caster_plate_armor/Caster_plate_armorFull</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+            <layers>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>Ogam_HeavyCaster</li>
+
+                <li>MedievalMilitaryAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+	-->
+</Defs>

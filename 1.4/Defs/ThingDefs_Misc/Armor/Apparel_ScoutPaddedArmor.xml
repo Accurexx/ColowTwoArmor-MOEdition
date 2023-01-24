@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ScoutBase -->
-    <ThingDef ParentName="ApparelMakeableBase" Name="Ogam_SimpleCapeBase" Abstract="True">
-		<graphicData>
+    <ThingDef ParentName="ArmorSmithableBase" Name="Ogam_ScoutArmorBase" Abstract="True">
+        <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -11,13 +11,13 @@
             <recipeUsers>
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
-                <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
+                <li>DankPyon_Anvil</li>
             </recipeUsers>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-
+		
 			<researchPrerequisites>
 				<li>DankPyon_AdornedArmor</li>
 				<li>DankPyon_ChainArmor</li>
@@ -34,13 +34,15 @@
                 <li>Neck</li>
                 <li>Torso</li>
                 <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Legs</li>
             </bodyPartGroups>
 			<useWornGraphicMask>true</useWornGraphicMask>
             <layers>
-                <li>Ogam_ShellAttachment</li>
+                <li>Shell</li>
             </layers>
             <tags>
-                <li>Ogam_LightScout</li>
+                <li>Ogam_Scout</li>
 
                 <li>MedievalMilitaryAdvanced</li>
             </tags>
@@ -50,80 +52,73 @@
         </apparel>
 
         <stuffCategories>
-            <li>Fabric</li>
+            <li>Metallic</li>
         </stuffCategories>
-        <costStuffCount>105</costStuffCount>
+        <costStuffCount>180</costStuffCount>
 		
         <costList>
-            <Leather_Plain>15</Leather_Plain>
+            <DankPyon_Linen>80</DankPyon_Linen>
         </costList>
 
         <statBases>
             <WorkToMake>30000</WorkToMake>
             <MaxHitPoints>270</MaxHitPoints>
             <Mass>12</Mass>
-            <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Cold>17</Insulation_Cold>
             <EquipDelay>13</EquipDelay>
         </statBases>
-		
+
         <equippedStatOffsets>
-            <!-- <MoveSpeed>-0.55</MoveSpeed> -->
+            <MoveSpeed>-0.7</MoveSpeed>
         </equippedStatOffsets>
 		
-
 		<!--ColorTwo Stuff-->
 		<thingClass>ThingColor.ApparelColored</thingClass>
 		<colorGenerator IsNull="True"/>
 		<modExtensions>
 			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
-					<li>Leathery</li>
+					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
 					<li>Fabric</li>	
 				</colorTwoStuff>
 			</li>
-			<li Class="VFECore.ApparelDrawPosExtension">
-				<apparelDrawSettings>
-					<drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
-					<drawPosSouthOffset>(0, 0.006, 0)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, 0.2, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, 0.2, 0)</drawPosEastOffset>
-				</apparelDrawSettings>
-			</li>
 		</modExtensions>
     </ThingDef>
+	
+	<!-- ScoutArmor -->
 
-	<!-- CasterArmor -->
-
-    <ThingDef ParentName="Ogam_SimpleCapeBase">
-        <defName>Ogam_SimpleCapeA</defName>
-        <label>Simple cape</label>
-        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+    <ThingDef ParentName="Ogam_ScoutArmorBase">
+        <defName>Ogam_Scout_padded_armorA</defName>
+        <label>light scout padded armor</label>
+        <description>Set of scout`s equipment.</description>
 		
         <graphicData>
-			<texPath>Apparel/Simple_cape/Simple_cape</texPath>
+			<texPath>Apparel/Scout_padded_armor/Scout_padded_armor</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Simple_cape/Simple_cape</wornGraphicPath>
+            <wornGraphicPath>Apparel/Scout_padded_armor/Scout_padded_armor</wornGraphicPath>		
 		</apparel>
     </ThingDef>
 
-    <ThingDef ParentName="Ogam_SimpleCapeBase">
-        <defName>Ogam_SimpleCapeB</defName>
-        <label>Simple cape</label>
-        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+    <ThingDef ParentName="Ogam_ScoutArmorBase">
+        <defName>Ogam_Scout_padded_armorB</defName>
+        <label>light scout padded armor</label>
+        <description>Set of scout`s equipment.</description>
 		
         <graphicData>
-			<texPath>Apparel/Simple_cape2/Simple_cape2</texPath>
+			<texPath>Apparel/Scout_padded_armor2/Scout_padded_armor2</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Simple_cape2/Simple_cape2</wornGraphicPath>
+            <wornGraphicPath>Apparel/Scout_padded_armor2/Scout_padded_armor2</wornGraphicPath>		
 		</apparel>
     </ThingDef>
+
+
 </Defs>

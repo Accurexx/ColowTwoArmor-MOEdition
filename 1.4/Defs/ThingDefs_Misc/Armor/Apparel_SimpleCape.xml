@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ScoutBase -->
-    <ThingDef ParentName="ApparelMakeableBase" Name="Ogam_CapeBase" Abstract="True">
+    <ThingDef ParentName="ApparelMakeableBase" Name="Ogam_SimpleCapeBase" Abstract="True">
 		<graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
@@ -17,7 +17,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-		
+
 			<researchPrerequisites>
 				<li>DankPyon_AdornedArmor</li>
 				<li>DankPyon_ChainArmor</li>
@@ -99,31 +99,31 @@
 
 	<!-- CasterArmor -->
 
-    <ThingDef ParentName="Ogam_CapeBase">
-        <defName>Ogam_RoyalCapeA</defName>
-        <label>Royal cape</label>
-        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+    <ThingDef ParentName="Ogam_SimpleCapeBase">
+        <defName>Ogam_SimpleCapeA</defName>
+        <label>Simple cape</label>
+        <description>Cape to hide your equipment away from a stranger's eye</description>
 		
         <graphicData>
-			<texPath>Apparel/Royal_cape/Royal_cape</texPath>
+			<texPath>Apparel/Simple_cape/Simple_cape</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Royal_cape/Royal_cape</wornGraphicPath>
+            <wornGraphicPath>Apparel/Simple_cape/Simple_cape</wornGraphicPath>
 		</apparel>
     </ThingDef>
 
-    <ThingDef ParentName="Ogam_CapeBase">
-        <defName>Ogam_RoyalCapeB</defName>
-        <label>Royal cape</label>
-        <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
+    <ThingDef ParentName="Ogam_SimpleCapeBase">
+        <defName>Ogam_SimpleCapeB</defName>
+        <label>Simple cape</label>
+        <description>Cape to hide your equipment away from a stranger's eye</description>
 		
         <graphicData>
-			<texPath>Apparel/Royal_cape2/Royal_cape2</texPath>
+			<texPath>Apparel/Simple_cape2/Simple_cape2</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Royal_cape2/Royal_cape2</wornGraphicPath>
+            <wornGraphicPath>Apparel/Simple_cape2/Simple_cape2</wornGraphicPath>
 		</apparel>
     </ThingDef>
 </Defs>

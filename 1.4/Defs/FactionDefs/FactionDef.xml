@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="DankPyon_NobleHouseFactionBase">
+    <defName>Ogam_MagicalAcademy</defName>
+    <label>magical academy</label>
+    <description>Lorem Impsum</description>
+    <colorSpectrum>
+      <li>(255,127,80)</li>
+    </colorSpectrum>
+    <fixedName>magical academy</fixedName>
+    <factionIconPath>WorldObjects/MagicalAcademy</factionIconPath>
+    <disallowedMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+	<disallowedPrecepts>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestOrHairDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>	
+	</disallowedPrecepts>
+    <naturalEnemy>false</naturalEnemy>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <DevDesigner_FootmanSanguin>50</DevDesigner_FootmanSanguin>
+          <DankPyon_Medieval_Billman>50</DankPyon_Medieval_Billman>
+          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
+          <DankPyon_Medieval_Arbalester>30</DankPyon_Medieval_Arbalester>
+          <DankPyon_Medieval_Bowman>40</DankPyon_Medieval_Bowman>
+          <DevDesigner_KnightSanguin>20</DevDesigner_KnightSanguin>
+          <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <DankPyon_Medieval_Peasant>15</DankPyon_Medieval_Peasant>
+          <DevDesigner_FootmanSanguin>40</DevDesigner_FootmanSanguin>
+          <DankPyon_Medieval_Billman>40</DankPyon_Medieval_Billman>
+          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
+          <DevDesigner_KnightSanguin>25</DevDesigner_KnightSanguin>
+          <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <DankPyon_Medieval_Peasant>15</DankPyon_Medieval_Peasant>
+          <DevDesigner_FootmanSanguin>40</DevDesigner_FootmanSanguin>
+          <DankPyon_Medieval_Billman>40</DankPyon_Medieval_Billman>
+          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
+          <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
+          <DevDesigner_KnightSanguin>10</DevDesigner_KnightSanguin>
+          <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <DankPyon_Medieval_Merchant>1</DankPyon_Medieval_Merchant>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Donkey>2</Donkey>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <DankPyon_Medieval_Peasant>3</DankPyon_Medieval_Peasant>
+          <DevDesigner_FootmanSanguin>20</DevDesigner_FootmanSanguin>
+          <DankPyon_Medieval_Billman>7</DankPyon_Medieval_Billman>
+          <DevDesigner_StandardSanguin>10</DevDesigner_StandardSanguin>
+          <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
+          <DankPyon_Medieval_Bowman>10</DankPyon_Medieval_Bowman>
+          <DevDesigner_KnightSanguin>10</DevDesigner_KnightSanguin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <DankPyon_Medieval_Peasant>30</DankPyon_Medieval_Peasant>
+          <DevDesigner_FootmanSanguin>30</DevDesigner_FootmanSanguin>
+          <DankPyon_Medieval_Billman>30</DankPyon_Medieval_Billman>
+          <DevDesigner_StandardSanguin>20</DevDesigner_StandardSanguin>
+          <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
+          <DevDesigner_KnightSanguin>25</DevDesigner_KnightSanguin>
+          <DankPyon_Medieval_Lord>60</DankPyon_Medieval_Lord>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+</Defs>

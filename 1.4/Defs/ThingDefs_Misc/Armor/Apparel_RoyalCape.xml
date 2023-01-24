@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ScoutBase -->
-    <ThingDef ParentName="ArmorSmithableBase" Name="Ogam_CasterArmorBase" Abstract="True">
+    <ThingDef ParentName="ApparelMakeableBase" Name="Ogam_CapeBase" Abstract="True">
 		<graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
@@ -9,17 +9,17 @@
 		
         <recipeMaker>
             <recipeUsers>
-                <li>ElectricSmithy</li>
-                <li>FueledSmithy</li>
-                <li>DankPyon_Anvil</li>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+                <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_TailorsBench</li>
             </recipeUsers>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+		
 			<researchPrerequisites>
-				<li>DankPyon_AdornedArmor</li>
-				<li>DankPyon_ChainArmor</li>
+				<li>DankPyon_Tailoring</li>
 			</researchPrerequisites>
         </recipeMaker>
 		
@@ -33,12 +33,10 @@
                 <li>Neck</li>
                 <li>Torso</li>
                 <li>Shoulders</li>
-                <li>Arms</li>
-				<li>Legs</li>
             </bodyPartGroups>
 			<useWornGraphicMask>true</useWornGraphicMask>
             <layers>
-                <li>Middle</li>
+                <li>Ogam_ShellAttachment</li>
             </layers>
             <tags>
                 <li>Ogam_LightScout</li>
@@ -51,29 +49,30 @@
         </apparel>
 
         <stuffCategories>
-            <li>Metallic</li>
+            <li>Fabric</li>
         </stuffCategories>
-        <costStuffCount>125</costStuffCount>
+        <costStuffCount>105</costStuffCount>
 		
         <costList>
-            <DankPyon_Linen>15</DankPyon_Linen>
+            <DankPyon_RawCotton>15</DankPyon_RawCotton>
         </costList>
 
         <statBases>
-            <WorkToMake>30000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
             <MaxHitPoints>270</MaxHitPoints>
             <Mass>12</Mass>
             <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Cold>13</Insulation_Cold>
             <EquipDelay>13</EquipDelay>
         </statBases>
 		
         <equippedStatOffsets>
-            <MoveSpeed>-0.55</MoveSpeed>
+            <!-- <MoveSpeed>-0.55</MoveSpeed> -->
         </equippedStatOffsets>
 		
+
 		<!--ColorTwo Stuff-->
 		<thingClass>ThingColor.ApparelColored</thingClass>
 		<colorGenerator IsNull="True"/>
@@ -83,40 +82,47 @@
 					<li>Fabric</li>	
 				</colorOneStuff>
 				<colorTwoStuff>
-					<li>Metallic</li>
+					<li>ResourcesRaw</li>
 				</colorTwoStuff>
+			</li>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<apparelDrawSettings>
+					<drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0.006, 0)</drawPosSouthOffset>
+					<drawPosWestOffset>(0, 0.2, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0.2, 0)</drawPosEastOffset>
+				</apparelDrawSettings>
 			</li>
 		</modExtensions>
     </ThingDef>
-	
+
 	<!-- CasterArmor -->
 
-    <ThingDef ParentName="Ogam_CasterArmorBase">
-        <defName>Ogam_Caster_plate_armorA</defName>
-        <label>light caster plate armor</label>
+    <ThingDef ParentName="Ogam_CapeBase">
+        <defName>Ogam_RoyalCapeA</defName>
+        <label>Royal cape</label>
         <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
 		
         <graphicData>
-			<texPath>Apparel/Caster_plate_armor/Caster_plate_armor</texPath>
+			<texPath>Apparel/Royal_cape/Royal_cape</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Caster_plate_armor/Caster_plate_armor</wornGraphicPath>
+            <wornGraphicPath>Apparel/Royal_cape/Royal_cape</wornGraphicPath>
 		</apparel>
     </ThingDef>
 
-    <ThingDef ParentName="Ogam_CasterArmorBase">
-        <defName>Ogam_Caster_plate_armorB</defName>
-        <label>light caster plate armor</label>
+    <ThingDef ParentName="Ogam_CapeBase">
+        <defName>Ogam_RoyalCapeB</defName>
+        <label>Royal cape</label>
         <description>Set of enchanted equipment for caster`s protection on the battlefield.</description>
 		
         <graphicData>
-			<texPath>Apparel/Caster_plate_armor2/Caster_plate_armor2</texPath>
+			<texPath>Apparel/Royal_cape2/Royal_cape2</texPath>
         </graphicData>
 		
 		<apparel>
-            <wornGraphicPath>Apparel/Caster_plate_armor2/Caster_plate_armor2</wornGraphicPath>
+            <wornGraphicPath>Apparel/Royal_cape2/Royal_cape2</wornGraphicPath>
 		</apparel>
     </ThingDef>
-
 </Defs>

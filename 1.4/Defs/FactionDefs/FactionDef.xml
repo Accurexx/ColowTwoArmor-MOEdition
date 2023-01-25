@@ -41,12 +41,9 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <DevDesigner_FootmanSanguin>50</DevDesigner_FootmanSanguin>
           <DankPyon_Medieval_Billman>50</DankPyon_Medieval_Billman>
-          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
           <DankPyon_Medieval_Arbalester>30</DankPyon_Medieval_Arbalester>
           <DankPyon_Medieval_Bowman>40</DankPyon_Medieval_Bowman>
-          <DevDesigner_KnightSanguin>20</DevDesigner_KnightSanguin>
           <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
         </options>
       </li>
@@ -55,10 +52,7 @@
         <commonality>60</commonality>
         <options>
           <DankPyon_Medieval_Peasant>15</DankPyon_Medieval_Peasant>
-          <DevDesigner_FootmanSanguin>40</DevDesigner_FootmanSanguin>
           <DankPyon_Medieval_Billman>40</DankPyon_Medieval_Billman>
-          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
-          <DevDesigner_KnightSanguin>25</DevDesigner_KnightSanguin>
           <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
         </options>
       </li>
@@ -66,11 +60,8 @@
         <kindDef>Peaceful</kindDef>
         <options>
           <DankPyon_Medieval_Peasant>15</DankPyon_Medieval_Peasant>
-          <DevDesigner_FootmanSanguin>40</DevDesigner_FootmanSanguin>
           <DankPyon_Medieval_Billman>40</DankPyon_Medieval_Billman>
-          <DevDesigner_StandardSanguin>30</DevDesigner_StandardSanguin>
           <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
-          <DevDesigner_KnightSanguin>10</DevDesigner_KnightSanguin>
           <DankPyon_Medieval_Lord>10</DankPyon_Medieval_Lord>
         </options>
       </li>
@@ -87,23 +78,17 @@
         </carriers>
         <guards>
           <DankPyon_Medieval_Peasant>3</DankPyon_Medieval_Peasant>
-          <DevDesigner_FootmanSanguin>20</DevDesigner_FootmanSanguin>
           <DankPyon_Medieval_Billman>7</DankPyon_Medieval_Billman>
-          <DevDesigner_StandardSanguin>10</DevDesigner_StandardSanguin>
           <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
           <DankPyon_Medieval_Bowman>10</DankPyon_Medieval_Bowman>
-          <DevDesigner_KnightSanguin>10</DevDesigner_KnightSanguin>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
           <DankPyon_Medieval_Peasant>30</DankPyon_Medieval_Peasant>
-          <DevDesigner_FootmanSanguin>30</DevDesigner_FootmanSanguin>
           <DankPyon_Medieval_Billman>30</DankPyon_Medieval_Billman>
-          <DevDesigner_StandardSanguin>20</DevDesigner_StandardSanguin>
           <DankPyon_Medieval_Arbalester>10</DankPyon_Medieval_Arbalester>
-          <DevDesigner_KnightSanguin>25</DevDesigner_KnightSanguin>
           <DankPyon_Medieval_Lord>60</DankPyon_Medieval_Lord>
         </options>
       </li>

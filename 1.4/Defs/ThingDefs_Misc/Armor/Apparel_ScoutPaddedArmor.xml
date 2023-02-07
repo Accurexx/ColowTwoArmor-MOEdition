@@ -81,10 +81,10 @@
 		<modExtensions>
 			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
-					<li>Metallic</li>
+					<li>Fabric</li>	
 				</colorOneStuff>
 				<colorTwoStuff>
-					<li>Fabric</li>	
+					<li>Metallic</li>
 				</colorTwoStuff>
 			</li>
 		</modExtensions>

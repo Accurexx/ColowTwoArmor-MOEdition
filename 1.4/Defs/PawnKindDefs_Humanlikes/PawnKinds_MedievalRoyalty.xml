@@ -70,7 +70,7 @@
 			<apparelLayer>Middle</apparelLayer>
 			<requiredTag>DankPyon_Handwear_GlovesLeather</requiredTag>
 			<stuff>DankPyon_Leather_Daer</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<!-- Feet -->
 		<li>
@@ -101,14 +101,14 @@
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_WizzardHatA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Neck</bodyPartGroup>
 			<apparelLayer>Ogam_ShellAttachment</apparelLayer>
 			<requiredTag>Ogam_RoyalCapeA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
@@ -134,14 +134,14 @@
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_GuardianHelmet</requiredTag>
 			<stuff>Steel</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
 			<apparelLayer>Shell</apparelLayer>
 			<requiredTag>Ogam_Guardian_plate_armor</requiredTag>
 			<stuff>Steel</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
@@ -164,18 +164,18 @@
 	
 	<specificApparelRequirements>
 		<li>
-			<bodyPartGroup>FullHead</bodyPartGroup>
+			<bodyPartGroup>UpperHead</bodyPartGroup>
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_Cloak</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(112, 108, 101)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
 			<apparelLayer>Shell</apparelLayer>
 			<requiredTag>Ogam_Scout_padded_armorA</requiredTag>
 			<stuff>Steel</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
@@ -194,7 +194,7 @@
 
 	<apparelRequired>
 		<li>Ogam_WizzardHatB</li>
-		<li>Ogam_Caster_plate_armorB</li>
+		<li>Ogam_Caster_plate_armorA</li>
 	</apparelRequired>
 	
 	<specificApparelRequirements>
@@ -203,14 +203,14 @@
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_WizzardHatA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
 			<apparelLayer>Shell</apparelLayer>
 			<requiredTag>Ogam_Caster_plate_armorA</requiredTag>
 			<stuff>Steel</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
@@ -236,14 +236,14 @@
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_WizzardHatB</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
 			<apparelLayer>Shell</apparelLayer>
 			<requiredTag>Ogam_Caster_plate_armorB</requiredTag>
 			<stuff>Steel</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
@@ -269,19 +269,20 @@
 			<apparelLayer>Overhead</apparelLayer>
 			<requiredTag>Ogam_Cloak</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
 			<apparelLayer>Ogam_ShellAttachment</apparelLayer>
 			<requiredTag>Ogam_SimpleCapeA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
-			<color>(255,127,80)</color>
+			<color>(30, 30, 32)</color>
 		</li>
 	</specificApparelRequirements>
 	
     <weaponTags>
 		<li>AmberSpear</li>
+		<li>AmberBanner</li>
     </weaponTags>
   </PawnKindDef>
 </Defs>

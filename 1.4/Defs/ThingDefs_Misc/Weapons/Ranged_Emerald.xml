@@ -11,7 +11,7 @@
         <drawSize>1.15</drawSize>
       </graphicData>
 
-	  <equippedAngleOffset>-45</equippedAngleOffset>
+	  <equippedAngleOffset>40</equippedAngleOffset>
 
 	<weaponTags>
 		<li>RuneMusket</li>
@@ -56,7 +56,7 @@
           <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>Ogam_MagicBolt_Amber</defaultProjectile>
+            <defaultProjectile>RF_SprayPylon_MagicBolt</defaultProjectile>
             <warmupTime>2.35</warmupTime>
             <range>28</range> <!-- 35 -->
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>

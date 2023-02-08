@@ -56,7 +56,7 @@
           <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>RF_SprayPylon_MagicBolt</defaultProjectile>
+            <defaultProjectile>RF_LancePylon_MagicBolt</defaultProjectile>
             <warmupTime>2.35</warmupTime>
             <range>16</range> <!-- 35 -->
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Medieval Overhaul: Magical Academy</name>
+  <name>Medieval Overhaul: Arcane Archaeologists</name>
   <author>Ogam</author>
-  <packageId>Ogam.MedievalOverhaul.MagicalAcademy</packageId>
+  <packageId>Ogam.MedievalOverhaul.ArcaneArchaeologists</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>

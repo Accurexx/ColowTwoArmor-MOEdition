@@ -203,7 +203,7 @@
 	
 	<ThingDef ParentName="HatMakeableBase" Name="Ogam_WizzardHatBase">
 		<defName>Ogam_WizzardHatA</defName>
-		<label>wizzard hat</label>
+		<label>wizard hat</label>
 		<description>A Wizard Hat is a traditional headgear worn by those who study and practice magic.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -259,7 +259,7 @@
 
     <ThingDef ParentName="Ogam_WizzardHatBase">
         <defName>Ogam_WizzardHatB</defName>
-        <label>wizzard hat</label>
+        <label>wizard hat</label>
         <description>A Wizard Hat is a traditional headgear worn by those who study and practice magic.</description>
 		
         <graphicData>

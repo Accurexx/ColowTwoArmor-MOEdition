@@ -36,6 +36,9 @@
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>50</configurationListOrderPriority>
 
+    <caravanTraderKinds Inherit="False">
+      <li>EEG_Caravan_Medieval_ArcaneGoodsMerchant</li>
+    </caravanTraderKinds>
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>

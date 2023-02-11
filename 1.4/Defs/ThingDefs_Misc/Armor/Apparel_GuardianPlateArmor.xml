@@ -102,26 +102,4 @@
             <DankPyon_Linen>20</DankPyon_Linen>
         </costList>
     </ThingDef>
-
-    <ThingDef ParentName="Ogam_GuardianBase">
-        <defName>Ogam_Guardian_plate_armor_guild</defName>
-        <label>guardian plate guild armor</label>
-        <description>Set of sturdy plate armor for knights best protection.</description>
-		
-        <graphicData>
-			<texPath>Apparel/Guardian_plate_armor/Guardian_plate_armor</texPath>
-        </graphicData>
-
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>150</costStuffCount>
-		
-        <costList>
-            <Ogam_GuildCloth>20</Ogam_GuildCloth>
-        </costList>
-		
-        <recipeMaker Inherit="False"/>
-
-    </ThingDef>
 </Defs>

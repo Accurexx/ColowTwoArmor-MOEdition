@@ -17,6 +17,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+			
 			<researchPrerequisites>
 				<li>DankPyon_AdornedArmor</li>
 				<li>DankPyon_ChainArmor</li>
@@ -36,7 +37,6 @@
                 <li>Arms</li>
 				<li>Legs</li>
             </bodyPartGroups>
-			<useWornGraphicMask>true</useWornGraphicMask>
             <layers>
                 <li>Shell</li>
             </layers>
@@ -101,6 +101,7 @@
         </graphicData>
 		
 		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
             <wornGraphicPath>Apparel/Caster_plate_armor/Caster_plate_armor</wornGraphicPath>
 		</apparel>
     </ThingDef>
@@ -115,6 +116,7 @@
         </graphicData>
 		
 		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
             <wornGraphicPath>Apparel/Caster_plate_armor2/Caster_plate_armor2</wornGraphicPath>
 		</apparel>
     </ThingDef>

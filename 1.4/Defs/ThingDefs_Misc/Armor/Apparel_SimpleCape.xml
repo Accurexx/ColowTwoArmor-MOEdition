@@ -37,7 +37,7 @@
             </bodyPartGroups>
 			<useWornGraphicMask>true</useWornGraphicMask>
             <layers>
-                <li>Ogam_ShellAttachment</li>
+                <li>DankPyon_ShellAttachment</li>
             </layers>
             <tags>
                 <li>Ogam_LightScout</li>

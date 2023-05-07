@@ -62,9 +62,9 @@
             <MaxHitPoints>270</MaxHitPoints>
             <Mass>12</Mass>
             <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Cold>3</Insulation_Cold>
             <EquipDelay>13</EquipDelay>
         </statBases>
 		

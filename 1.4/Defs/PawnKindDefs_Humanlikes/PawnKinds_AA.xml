@@ -105,7 +105,7 @@
 		</li>
 		<li>
 			<bodyPartGroup>Neck</bodyPartGroup>
-			<apparelLayer>Ogam_ShellAttachment</apparelLayer>
+			<apparelLayer>DankPyon_ShellAttachment</apparelLayer>
 			<requiredTag>Ogam_RoyalCapeA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
 			<color>(30, 30, 32)</color>
@@ -273,7 +273,7 @@
 		</li>
 		<li>
 			<bodyPartGroup>Torso</bodyPartGroup>
-			<apparelLayer>Ogam_ShellAttachment</apparelLayer>
+			<apparelLayer>DankPyon_ShellAttachment</apparelLayer>
 			<requiredTag>Ogam_SimpleCapeA</requiredTag>
 			<stuff>DankPyon_Linen</stuff>
 			<color>(30, 30, 32)</color>
